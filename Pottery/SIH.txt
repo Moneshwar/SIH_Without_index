@@ -1,0 +1,13 @@
+Catogery 1: Jute Products
+Catogery 2: Clay and Pottery
+	2.1 - Clay Vase
+		A white and brown clay vase with intricate designs around the curves
+		Price : Rs. 1000
+	2.2 - Ceramic Structure
+		A white ceramic sculpture used for decorations.
+		Price : Rs. 1200
+	2.3 - Handmade Ceramic Cup
+		A blue handmade usable ceramic cup with a burnt feel
+	2.4 - Clay Lantern Lamp
+		A colourful lamp which can be used for decorations
+Catogery 3: Leather Products

@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: green;
+}
+.inner-header{
+  height:100%;
+  width:1000px;
+  display: block;
+  margin: 0 auto;
+}
+.logo-cont{
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo-cont h1{
+  color: white;
+  height:100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 32px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+}
+.logo-cont h1 span{
+  font-weight: 200; 
+}
+.navigation{
+  float: right;
+  height: 100%;
+}
+.navigation a{
+  height: 100%;
+  display:table;
+  float: left;
+  padding: 0px 20px;
+
+}
+.navigation a li:hover{
+  color:red;
+}
+.navigation a:last-child{
+  padding-right: 0px;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+p{
+  color:#40514E;
+  font-weight:bold;
+  line-height:1.5;
+  font-family: 'Varela Round', sans-serif;
+}
+body{
+    text-align: center;
+    background-color: #EEF2FF;
+}
+.contact-me{
+   background-color: black;
+}
+.bottom-container{
+   background-color: black;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Dancing Script', cursive;
+  font-size:4.7rem;
+  margin:50px auto 0 auto;
+}
+h2{
+  color: #d81717;
+  font-weight: normal;
+  line-height:1.5;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2rem;
+}
+h3{
+  color:#11999E;
+}
+p{
+  color:#40514E;
+  font-weight:bold;
+  line-height:1.5;
+  font-family: 'Varela Round', sans-serif;
+  vertical-align: center;
+}
+.btn {
+background: #3498db;
+background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+background-image: -o-linear-gradient(top, #3498db, #2980b9);
+background-image: linear-gradient(to bottom, #3498db, #2980b9);
+-webkit-border-radius: 14;
+-moz-border-radius: 14;
+border-radius: 14px;
+font-family: 'Varela Round', sans-serif;
+color: #ebe4eb;
+font-size: 24px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+
+.btn:hover {
+background: #a61e5b;
+background-image: -webkit-linear-gradient(top, #a61e5b, #3498db);
+background-image: -moz-linear-gradient(top, #a61e5b, #3498db);
+background-image: -ms-linear-gradient(top, #a61e5b, #3498db);
+background-image: -o-linear-gradient(top, #a61e5b, #3498db);
+background-image: linear-gradient(to bottom, #a61e5b, #3498db);
+text-decoration: none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:#3498db;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
